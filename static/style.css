@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Orelega+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Orelega One';
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 18px;
+}
+
+#logo img{
+    height: 31px;
+}
+
+#navbar{
+    background-color: #d43737;
+    font-family: 'Dancing Script';
+    padding: 13px 14px; 
+    font-size: 25px
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: wheat;
+    font-size: 1rem;/*Default is 1 rem*/
+    }
+
+#navbar li a:hover{
+        color: black;
+    }
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+    background: center / cover no-repeat url('/static/BG.jpg');/*Cover will cover the image in whole introsection*/
+     height: 300px;
+     background-color: red;
+     padding-bottom: 40px;
+}
+
+#introsection div.small{
+    font-size: 27px;
+    padding: 5px;
+}
+
+#missionsection{
+    height: 326px;
+    background-color: white;
+    margin: auto;
+    width: 67%;
+    display: block;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: wheat;
+    width: 28%;
+    margin: 23px 22px;
+    height: 209px;
+    display: inline-block;/*This will show them in line but if its width is more than the window then elements will go down*/
+}
+
+.card h3{
+    margin: 12px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.card-image{
+     height: 100px;
+     padding: 0 14px;
+}
+
+.card-image img{
+    height: inherit;/*This will fix the image in the box*/
+}
+
+#missionsection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#sponsorsection{
+    height: 300px;
+    background-color: #a2530ebd;
+}
+
+#sponsorsection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.SPI{
+    height: 100%;
+    margin: 41px;
+}
+
+#footer{
+    height: 40px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 20px;
+    display: flex;
+}

@@ -1,0 +1,61 @@
+doctype html 
+html
+  head
+    title Hip-Hop Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="static/Logo (2).png", alt="image not loading")
+                |   HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact us]
+
+    section#introsection 
+        div Welcome to our Website 
+        div.small Eat Dance Sleep Repeat
+
+    section#missionsection 
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-image
+                    img(src="static/Image1 (3).png", alt="")
+                div.card-content 
+                    p This best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-image
+                    img(src="static/Image1 (2).png", alt="")
+                div.card-content 
+                    p This best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-image
+                    img(src="static/Image1 (1).png", alt="")
+                div.card-content 
+                    p This best dance academy of the universe
+    
+    section#sponsorsection
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="static/Client1.png", alt="Failed to load image" Class="SPI")
+            img(src="static/Client2.png", alt="Failed to load image" Class="SPI")
+            img(src="static/Client3.png", alt="Failed to load image" Class="SPI")
+            img(src="static/Client4.png", alt="Failed to load image" Class="SPI")
+
+    footer#footer 
+        | Copyright © 2021 Hip-Hop Dance Academy
+
+    script
+      include ../static/index.js

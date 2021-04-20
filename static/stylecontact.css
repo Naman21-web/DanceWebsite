@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 85vh;
+ 
+}
+
+.myform{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.myinput{
+   /* display: block;/*All comes vertically in lines taking same space*/
+   width: 40%;
+   padding: 9px;
+   margin: 8px;
+   font-size: 16px;
+   border: 2px solid blueviolet;
+   border-radius: 5px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 4px;
+    margin: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
